@@ -1,0 +1,23 @@
+# 用例编写过程
+项目资料：最新apk、机器人通信接口协议文档
+1.通过安卓模拟器安装apk
+2.连接虚拟机上的bros系统
+3.bros topic echo /ros_communication_request 打印request topic接受的pad下发的数据
+4.获取json数据，对应接口文档编写接口测试用例
+5.根据接口测试用例编写接口测试脚本
+
+
+# 执行流程
+1.连接机器人wifi
+2.验证脚本中 login参数是否正确
+3.xshell 连接机器人
+4.bros node list 查看task_control节点是否启动， 未启动的话192.168.8.1 配置自启参数
+5.bros topic list 查看topic列表
+6.bros topic echo /ros_communication_request 打印request topic接受的pad下发的数据
+7.执行脚本，选择对应的指令下发
+8.观察机器是否执行相应的动作/预期的返回结果
+
+
+# 注意事项
+1.每个机器人的通讯协议不同（枚举参数下发，二进制转十进制数据下发，二进制转十六进制数据下发）
+2.接口脚本在拿到机器后执行之前可能需要根据机器需求改动

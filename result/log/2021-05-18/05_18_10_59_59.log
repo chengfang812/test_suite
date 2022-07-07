@@ -1,0 +1,14 @@
+[2021-05-18 11:00:06,554] -test - INFO:  func_name: test_connect  params: ['192.168.1.11', 5979, False]  use_time: 5.510261535644531  result: 
+[2021-05-18 11:00:14,058] -test - INFO:  func_name: test_connect  params: ['192.168.1.110', 597, False]  use_time: 5.502596139907837  result: 
+[2021-05-18 11:00:21,607] -test - INFO:  func_name: test_connect  清除故障， 软复位
+[2021-05-18 11:00:21,608] -test - INFO:  func_name: test_connect  params: ['192.168.1.110', 5979, True]  use_time: 5.54819130897522  result: 
+[2021-05-18 11:00:45,130] -test - INFO:  func_name: test_login  清除故障， 软复位
+[2021-05-18 11:00:45,131] -test - INFO:  func_name: test_login  params: ['bzl212', 'ss1234567', False]  use_time: 21.520428895950317  result: 
+[2021-05-18 11:01:08,644] -test - INFO:  func_name: test_login  清除故障， 软复位
+[2021-05-18 11:01:08,645] -test - INFO:  func_name: test_login  params: ['bzl_user', 'ss123456789', False]  use_time: 21.510431051254272  result: 
+[2021-05-18 11:01:32,155] -test - INFO:  func_name: test_login  清除故障， 软复位
+[2021-05-18 11:01:32,156] -test - INFO:  func_name: test_login  params: ['', 'ss123456789', False]  use_time: 21.50946807861328  result: 
+[2021-05-18 11:01:55,666] -test - INFO:  func_name: test_login  清除故障， 软复位
+[2021-05-18 11:01:55,667] -test - INFO:  func_name: test_login  params: ['bzl_user', '', False]  use_time: 21.50947117805481  result: 
+[2021-05-18 11:02:19,181] -test - INFO:  func_name: test_login  清除故障， 软复位
+[2021-05-18 11:02:19,182] -test - INFO:  func_name: test_login  params: ['bzl_user', 'ss1234567', True]  use_time: 21.51345157623291  result: 

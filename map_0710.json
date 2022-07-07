@@ -1,0 +1,220 @@
+{
+"DeviceCode":"Dev001",
+"DeviceIP":"192.168.0.1",
+"MsgID":"2019-07-12-19-26-40-193",
+"TaskData":{
+"TaskID":1,
+"RouteData":{
+"BIMMapCode":"B1-F1-Z1",
+"NumOfPoints":22,
+"OrgPt":
+	{
+ 	"X":11760,
+ 	"Y":-12520,
+ 	"Z":0,
+ 	"Angle":90
+	},
+ "RoutePts": [
+	{ 
+ 	"X":11760,
+ 	"Y":-12520,
+ 	"Z":0,
+ 	"Angle":90,
+ 	"Order":1,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":11760,
+ 	"Y":-9520,
+ 	"Z":0,
+ 	"Angle":90,
+ 	"Order":2,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":11760,
+ 	"Y":-9520,
+ 	"Z":0,
+ 	"Angle":-180,
+ 	"Order":3,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":10660,
+ 	"Y":-9520,
+ 	"Z":0,
+ 	"Angle":-180,
+ 	"Order":4,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":10660,
+ 	"Y":-9520,
+ 	"Z":0,
+ 	"Angle":-90,
+ 	"Order":5,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":10660,
+ 	"Y":-10820,
+ 	"Z":0,
+ 	"Angle":-90,
+ 	"Order":6,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":10660,
+ 	"Y":-12520,
+ 	"Z":0,
+ 	"Angle":-90,
+ 	"Order":7,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":10660,
+ 	"Y":-12520,
+ 	"Z":0,
+ 	"Angle":180,
+ 	"Order":8,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":9360,
+ 	"Y":-12520,
+ 	"Z":0,
+ 	"Angle":180,
+ 	"Order":9,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":9360,
+ 	"Y":-9520,
+ 	"Z":0,
+ 	"Angle":180,
+ 	"Order":10,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":8260,
+ 	"Y":-9520,
+ 	"Z":0,
+ 	"Angle":180,
+ 	"Order":11,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":8260,
+ 	"Y":-10820,
+ 	"Z":0,
+ 	"Angle":180,
+ 	"Order":12,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":9360,
+ 	"Y":-10820,
+ 	"Z":0,
+ 	"Angle":180,
+ 	"Order":13,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":9360,
+ 	"Y":-13920,
+ 	"Z":0,
+ 	"Angle":180,
+ 	"Order":14,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":9360,
+ 	"Y":-13920,
+ 	"Z":0,
+ 	"Angle":180,
+ 	"Order":15,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":5360,
+ 	"Y":-13920,
+ 	"Z":0,
+ 	"Angle":180,
+ 	"Order":16,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":5360,
+ 	"Y":-9520,
+ 	"Z":0,
+ 	"Angle":180,
+ 	"Order":17,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":6700,
+ 	"Y":-9520,
+ 	"Z":0,
+ 	"Angle":180,
+ 	"Order":18,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":6700,
+ 	"Y":-10820,
+ 	"Z":0,
+ 	"Angle":180,
+ 	"Order":19,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":5360,
+ 	"Y":-10820,
+ 	"Z":0,
+ 	"Angle":180,
+ 	"Order":20,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":5360,
+ 	"Y":-12520,
+ 	"Z":0,
+ 	"Angle":180,
+ 	"Order":21,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	},
+	{ 
+ 	"X":11760,
+ 	"Y":-13920,
+ 	"Z":0,
+ 	"Angle":180,
+ 	"Order":22,
+ 	"WorkState":0,
+ 	"WorkData": [{ }]
+	}
+	 ]
+    
+}
+ }
+}

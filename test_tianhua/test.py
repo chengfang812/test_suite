@@ -1,0 +1,1 @@
+"""{'cmd_type': 1000, 'seq_cmd': 65, 'data': {'req_cmd_type': 3003, 'result': 0, 'description': ''}})"""

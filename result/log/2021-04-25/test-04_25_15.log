@@ -1,0 +1,8 @@
+[2021-04-25 15:43:05,350] -test - INFO:  func_name: test_connect  params: ['192.168.1.11', 5979, False]  use_time: 5.5148866176605225  result: 
+[2021-04-25 15:43:12,855] -test - INFO:  func_name: test_connect  params: ['192.168.1.110', 597, False]  use_time: 5.503082275390625  result: 
+[2021-04-25 15:43:20,359] -test - INFO:  func_name: test_connect  params: ['192.168.1.110', 5979, True]  use_time: 5.502680063247681  result: 
+[2021-04-25 15:43:43,885] -test - INFO:  func_name: test_login  params: ['bzl212', 'ss1234567', False]  use_time: 21.523435592651367  result: 
+[2021-04-25 15:44:07,395] -test - INFO:  func_name: test_login  params: ['bzl_user', 'ss123456789', False]  use_time: 21.508603811264038  result: 
+[2021-04-25 15:44:30,902] -test - INFO:  func_name: test_login  params: ['', 'ss123456789', False]  use_time: 21.50598430633545  result: 
+[2021-04-25 15:44:54,411] -test - INFO:  func_name: test_login  params: ['bzl_user', '', False]  use_time: 21.50714087486267  result: 
+[2021-04-25 15:45:17,921] -test - INFO:  func_name: test_login  params: ['bzl_user', 'ss1234567', True]  use_time: 21.506592273712158  result: 

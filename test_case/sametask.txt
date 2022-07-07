@@ -1,0 +1,69 @@
+[2021-01-08 15:28:02.097210] [19904] [file] [info] [main.cpp:42] liscense success, keep run...
+[2021-01-08 15:28:02.097571] [19904] [file] [info] [params.cpp:209] Params::load_db begin
+[2021-01-08 15:28:02.467937] [19904] [file] [info] [params.cpp:214] Params::load_db db_open1 rc: 0
+[2021-01-08 15:28:02.467941] [19904] [file] [info] [params.cpp:217] Params::load_db db_open2 rc: 0
+[2021-01-08 15:28:02.470332] [19904] [file] [info] [params.cpp:249] Params::load_db db_get_string robot_type rc: 0
+[2021-01-08 15:28:02.470339] [19904] [file] [info] [params.cpp:259] Params::load_db param [robot_type] : task
+[2021-01-08 15:28:02.470407] [19904] [file] [info] [params.cpp:272] Params::load_db param [device_code] : CRNZTFMM1908001
+[2021-01-08 15:28:02.470450] [19904] [file] [info] [params.cpp:285] Params::load_db param [run_after_initialpose] : false
+[2021-01-08 15:28:02.470479] [19904] [file] [info] [params.cpp:298] Params::load_db param [enable_distance_alarm] : false
+[2021-01-08 15:28:02.470506] [19904] [file] [info] [params.cpp:310] Params::load_db param [enable_auto_load_task] : true
+[2021-01-08 15:28:02.470539] [19904] [file] [info] [params.cpp:323] Params::load_db param [auto_load_task_path] : /home/nvidia/share/cyber_demo/map_route_task_723.json
+[2021-01-08 15:28:02.470562] [19904] [file] [info] [params.cpp:335] Params::load_db param [enable_auto_init_pose] : false
+[2021-01-08 15:28:02.470587] [19904] [file] [info] [params.cpp:347] Params::load_db param [auto_init_pose_x] : 0.0
+[2021-01-08 15:28:02.470608] [19904] [file] [info] [params.cpp:360] Params::load_db param [auto_init_pose_y] : 0.0
+[2021-01-08 15:28:02.470630] [19904] [file] [info] [params.cpp:373] Params::load_db param [auto_init_pose_y] : 0.0
+[2021-01-08 15:28:02.470653] [19904] [file] [info] [params.cpp:386] Params::load_db param [debug_start_station] : 0
+[2021-01-08 15:28:02.470672] [19904] [file] [info] [params.cpp:398] Params::load_db param [enable_adjust_angle] : 0
+[2021-01-08 15:28:02.470749] [19904] [file] [warning] [params.cpp:422] Params::database, the database's laststation_info parse error ,set to null!
+[2021-01-08 15:28:02.470751] [19904] [file] [info] [params.cpp:430] Params::load_db param [last_motion_order] : 0
+[2021-01-08 15:28:02.470751] [19904] [file] [info] [params.cpp:432] Params::load_db param [last_work_index] : 0
+[2021-01-08 15:28:02.470751] [19904] [file] [info] [params.cpp:434] Params::load_db param [enable_resume_work] : 0
+[2021-01-08 15:28:02.470752] [19904] [file] [info] [params.cpp:436] Params::load_db param [last_station_info] : 
+[2021-01-08 15:28:02.470757] [19904] [file] [info] [strategy_config.h:27] strategy_config_path:/usr/local/bzl_robot/config/strategy_config.yaml
+[2021-01-08 15:28:02.534326] [19904] [file] [info] [machine.cpp:389] sc::state_actions<sc::state_MANUAL>::enter
+[2021-01-08 15:28:02.534401] [19904] [file] [info] [com_manager.cpp:908] ComManager::pub_task_update {
+   "state" : "STATE_MANUAL"
+}
+
+[2021-01-08 15:28:02.534411] [19904] [file] [info] [machine.cpp:397] sc::state_actions<sc::state_mIDLE>::enter
+[2021-01-08 15:28:02.534421] [19904] [file] [info] [com_manager.cpp:908] ComManager::pub_task_update {
+   "state" : "STATE_mIDLE"
+}
+
+[2021-01-08 15:28:02.534436] [19904] [file] [info] [bt_manager.cpp:54] BehaviorTreeManager::set_converter robot_type: task
+[2021-01-08 15:28:02.550599] [19904] [file] [info] [logger_initializer.h:429] Load log level from database: debug
+[2021-01-08 15:28:02.551092] [19904] [file] [info] [main.cpp:63] =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[2021-01-08 15:28:02.551095] [19904] [file] [info] [main.cpp:64] navigation_control version 1.2.1229-864c034 (build date 2020-12-29 08:15:58+0000)
+[2021-01-08 15:28:02.551096] [19904] [file] [info] [main.cpp:65] =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[2021-01-08 15:28:02.552151] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-08 15:28:03.451707] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-08 15:28:03.482883] [19937] [file] [info] [block_manager.cpp:123] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-08 15:28:04.351614] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-08 15:28:04.484600] [19937] [file] [info] [block_manager.cpp:123] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-08 15:28:05.251700] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-08 15:28:05.484756] [19937] [file] [info] [block_manager.cpp:123] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-08 15:28:06.151811] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-08 15:28:06.486425] [19937] [file] [info] [block_manager.cpp:123] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-08 15:28:07.051594] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-08 15:28:07.488463] [19937] [file] [info] [block_manager.cpp:123] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-08 15:28:07.951768] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-08 15:28:08.488523] [19937] [file] [info] [block_manager.cpp:123] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-08 15:28:08.851678] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-08 15:28:09.490222] [19937] [file] [info] [block_manager.cpp:123] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-08 15:28:09.751908] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-08 15:28:10.490659] [19937] [file] [info] [block_manager.cpp:123] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-08 15:28:10.651689] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-08 15:28:11.492064] [19937] [file] [info] [block_manager.cpp:123] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-08 15:28:11.551680] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-08 15:28:12.451750] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-08 15:28:12.492423] [19937] [file] [info] [block_manager.cpp:123] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-08 15:28:13.351594] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-08 15:28:13.492545] [19937] [file] [info] [block_manager.cpp:123] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-08 15:28:14.251577] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-08 15:28:14.493221] [19937] [file] [info] [block_manager.cpp:123] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-08 15:28:15.151744] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-08 15:28:15.494988] [19937] [file] [info] [block_manager.cpp:123] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-08 15:28:16.051667] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-08 15:28:16.496430] [19937] [file] [info] [block_manager.cpp:123] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-08 15:28:16.951566] [19904] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE

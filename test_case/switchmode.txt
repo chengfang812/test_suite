@@ -1,0 +1,402 @@
+[2021-01-06 16:14:37.958885] [11165] [file] [info] [main.cpp:42] liscense success, keep run...
+[2021-01-06 16:14:37.959325] [11165] [file] [info] [params.cpp:209] Params::load_db begin
+[2021-01-06 16:14:38.596816] [11165] [file] [info] [params.cpp:214] Params::load_db db_open1 rc: 0
+[2021-01-06 16:14:38.596834] [11165] [file] [info] [params.cpp:217] Params::load_db db_open2 rc: 0
+[2021-01-06 16:14:38.599929] [11165] [file] [info] [params.cpp:249] Params::load_db db_get_string robot_type rc: 0
+[2021-01-06 16:14:38.599942] [11165] [file] [info] [params.cpp:259] Params::load_db param [robot_type] : task
+[2021-01-06 16:14:38.600010] [11165] [file] [info] [params.cpp:272] Params::load_db param [device_code] : CRNZTFMM1908001
+[2021-01-06 16:14:38.600044] [11165] [file] [info] [params.cpp:285] Params::load_db param [run_after_initialpose] : false
+[2021-01-06 16:14:38.600080] [11165] [file] [info] [params.cpp:298] Params::load_db param [enable_distance_alarm] : false
+[2021-01-06 16:14:38.600113] [11165] [file] [info] [params.cpp:310] Params::load_db param [enable_auto_load_task] : true
+[2021-01-06 16:14:38.600148] [11165] [file] [info] [params.cpp:323] Params::load_db param [auto_load_task_path] : /home/nvidia/share/cyber_demo/map_route_task_723.json
+[2021-01-06 16:14:38.600177] [11165] [file] [info] [params.cpp:335] Params::load_db param [enable_auto_init_pose] : false
+[2021-01-06 16:14:38.600213] [11165] [file] [info] [params.cpp:347] Params::load_db param [auto_init_pose_x] : 0.0
+[2021-01-06 16:14:38.600243] [11165] [file] [info] [params.cpp:360] Params::load_db param [auto_init_pose_y] : 0.0
+[2021-01-06 16:14:38.600271] [11165] [file] [info] [params.cpp:373] Params::load_db param [auto_init_pose_y] : 0.0
+[2021-01-06 16:14:38.600316] [11165] [file] [info] [params.cpp:386] Params::load_db param [debug_start_station] : 0
+[2021-01-06 16:14:38.600358] [11165] [file] [info] [params.cpp:398] Params::load_db param [enable_adjust_angle] : 0
+[2021-01-06 16:14:38.600730] [11165] [file] [info] [params.cpp:444] Params::load_db param [last_station_info] : {
+   "DeviceCode" : "Dev001",
+   "DeviceIP" : "192.168.0.1",
+   "MsgID" : "Msg001",
+   "TaskData" : {
+      "RouteData" : {
+         "BIMMapCode" : "0105",
+         "NumOfPoints" : 5,
+         "OrgPt" : {
+            "Angle" : -88.563217163085938,
+            "MoveState" : 1,
+            "Order" : 0,
+            "WorkData" : [],
+            "WorkState" : 0,
+            "X" : -1441.1408861442681,
+            "Y" : -727.2511270168493,
+            "Z" : 0,
+            "angular_rate_max" : -1,
+            "controlMode" : 0,
+            "curve_mode" : -1,
+            "end_angle" : 360,
+            "end_speed" : 0,
+            "is_backwards" : 0,
+            "is_indoor" : 1,
+            "linear_vel_max" : -1,
+            "moveSpeed" : 0,
+            "road_finding_mode" : -1,
+            "run_mode" : -1
+         },
+         "RoutePts" : [
+            {
+               "Angle" : -88.563217163085938,
+               "MoveState" : 1,
+               "Order" : 1,
+               "WorkData" : [],
+               "WorkState" : 0,
+               "X" : -1451.3658746446013,
+               "Y" : -2144.9651625713955,
+               "Z" : 0,
+               "angular_rate_max" : -1,
+               "controlMode" : 0,
+               "curve_mode" : -1,
+               "end_angle" : 360,
+               "end_speed" : 0,
+               "is_backwards" : 0,
+               "is_indoor" : 1,
+               "linear_vel_max" : -1,
+               "moveSpeed" : 0,
+               "road_finding_mode" : -1,
+               "run_mode" : -1
+            },
+            {
+               "Angle" : -88.563217163085938,
+               "MoveState" : 1,
+               "Order" : 2,
+               "WorkData" : [],
+               "WorkState" : 0,
+               "X" : -1341.5332298831615,
+               "Y" : -3353.5118546180838,
+               "Z" : 0,
+               "angular_rate_max" : -1,
+               "controlMode" : 0,
+               "curve_mode" : -1,
+               "end_angle" : 360,
+               "end_speed" : 0,
+               "is_backwards" : 0,
+               "is_indoor" : 1,
+               "linear_vel_max" : -1,
+               "moveSpeed" : 0,
+               "road_finding_mode" : -1,
+               "run_mode" : -1
+            },
+            {
+               "Angle" : -88.563217163085938,
+               "MoveState" : 1,
+               "Order" : 3,
+               "WorkData" : [],
+               "WorkState" : 0,
+               "X" : -1341.5332298831615,
+               "Y" : -3353.5118546180838,
+               "Z" : 0,
+               "angular_rate_max" : -1,
+               "controlMode" : 0,
+               "curve_mode" : -1,
+               "end_angle" : 360,
+               "end_speed" : 0,
+               "is_backwards" : 0,
+               "is_indoor" : 1,
+               "linear_vel_max" : -1,
+               "moveSpeed" : 0,
+               "road_finding_mode" : -1,
+               "run_mode" : -1
+            },
+            {
+               "Angle" : -88.563217163085938,
+               "MoveState" : 1,
+               "Order" : 4,
+               "WorkData" : [],
+               "WorkState" : 0,
+               "X" : -1341.5332298831615,
+               "Y" : -3353.5118546180838,
+               "Z" : 0,
+               "angular_rate_max" : -1,
+               "controlMode" : 0,
+               "curve_mode" : -1,
+               "end_angle" : 360,
+               "end_speed" : 0,
+               "is_backwards" : 0,
+               "is_indoor" : 1,
+               "linear_vel_max" : -1,
+               "moveSpeed" : 0,
+               "road_finding_mode" : -1,
+               "run_mode" : -1
+            },
+            {
+               "Angle" : -88.563217163085938,
+               "MoveState" : 1,
+               "Order" : 5,
+               "WorkData" : [],
+               "WorkState" : 0,
+               "X" : -1341.5332298831615,
+               "Y" : -3353.5118546180838,
+               "Z" : 0,
+               "angular_rate_max" : -1,
+               "controlMode" : 0,
+               "curve_mode" : -1,
+               "end_angle" : 360,
+               "end_speed" : 0,
+               "is_backwards" : 0,
+               "is_indoor" : 1,
+               "linear_vel_max" : -1,
+               "moveSpeed" : 0,
+               "road_finding_mode" : -1,
+               "run_mode" : -1
+            }
+         ]
+      },
+      "TaskID" : "100",
+      "navigationLoopNumber" : 1
+   }
+}
+
+[2021-01-06 16:14:38.600844] [11165] [file] [info] [params.cpp:457] Params::load_db param [last_motion_order] : 1
+[2021-01-06 16:14:38.600891] [11165] [file] [info] [params.cpp:470] Params::load_db param [last_work_index] : 0
+[2021-01-06 16:14:38.600895] [11165] [file] [info] [params.cpp:493] Params::load_db param [enable_resume_work] : 1
+[2021-01-06 16:14:38.600935] [11165] [file] [info] [params.cpp:507] Params::load_db param [reserved1] : 
+[2021-01-06 16:14:38.600972] [11165] [file] [info] [params.cpp:521] Params::load_db param [reserved2] : 
+[2021-01-06 16:14:38.600976] [11165] [file] [info] [params.cpp:523] Params::load_db end
+[2021-01-06 16:14:38.600983] [11165] [file] [info] [strategy_config.h:27] strategy_config_path:/usr/local/bzl_robot/config/strategy_config.yaml
+[2021-01-06 16:14:38.926082] [11165] [file] [info] [machine.cpp:389] sc::state_actions<sc::state_MANUAL>::enter
+[2021-01-06 16:14:38.926175] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_MANUAL"
+}
+
+[2021-01-06 16:14:38.926189] [11165] [file] [info] [machine.cpp:397] sc::state_actions<sc::state_mIDLE>::enter
+[2021-01-06 16:14:38.926207] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_mIDLE"
+}
+
+[2021-01-06 16:14:38.926231] [11165] [file] [info] [bt_manager.cpp:54] BehaviorTreeManager::set_converter robot_type: task
+[2021-01-06 16:14:39.141263] [11165] [file] [info] [logger_initializer.h:429] Load log level from database: debug
+[2021-01-06 16:14:39.147924] [11165] [file] [info] [main.cpp:63] =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[2021-01-06 16:14:39.148919] [11165] [file] [info] [main.cpp:64] navigation_control version 1.2.1218-70de041 (build date 2020-12-18 10:06:11+0800)
+[2021-01-06 16:14:39.148962] [11165] [file] [info] [main.cpp:65] =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+[2021-01-06 16:14:39.150808] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:39.625132] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:40.050338] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:40.625538] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:40.949829] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:41.625779] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:41.849407] [11165] [file] [info] [pad_base.cpp:60] pad_to_ros_callback pad_data->data: {"cmd_type": 1050,"seq_cmd":0,"data":{"status": 1}}
+[2021-01-06 16:14:41.849705] [11165] [file] [info] [com_manager.cpp:85] Recived an initialpose.
+[2021-01-06 16:14:41.850084] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:42.626165] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:42.749897] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:43.626788] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:43.650221] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:44.550227] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:44.627138] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:45.450287] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:45.629075] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:46.349780] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:46.631050] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:47.149674] [11165] [file] [info] [com_manager.cpp:456] ComManager::JsonRpcCallback Enter request.id 1082
+[2021-01-06 16:14:47.149688] [11165] [file] [info] [com_manager.cpp:457] request.id 1082
+[2021-01-06 16:14:47.149691] [11165] [file] [info] [com_manager.cpp:458] request.method auto
+[2021-01-06 16:14:47.149694] [11165] [file] [info] [com_manager.cpp:459] request.params 
+[2021-01-06 16:14:47.149701] [11165] [file] [info] [machine.cpp:301] sc::state_actions<sc::state_AUTO>::enter
+[2021-01-06 16:14:47.149736] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_AUTO"
+}
+
+[2021-01-06 16:14:47.149740] [11165] [file] [info] [machine.cpp:309] sc::state_actions<sc::state_IDLE>::enter
+[2021-01-06 16:14:47.149748] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_IDLE"
+}
+
+[2021-01-06 16:14:47.149753] [11165] [file] [info] [main_state.cpp:124] MainState::dispatchEvent event: auto, result: true
+[2021-01-06 16:14:47.149942] [11165] [file] [info] [com_manager.cpp:483] ComManager::JsonRpcCallback Exit request.id 1082
+[2021-01-06 16:14:47.250445] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_IDLE
+[2021-01-06 16:14:47.633262] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:48.149762] [11165] [file] [info] [com_manager.cpp:456] ComManager::JsonRpcCallback Enter request.id 1083
+[2021-01-06 16:14:48.149836] [11165] [file] [info] [com_manager.cpp:457] request.id 1083
+[2021-01-06 16:14:48.149841] [11165] [file] [info] [com_manager.cpp:458] request.method manual
+[2021-01-06 16:14:48.149844] [11165] [file] [info] [com_manager.cpp:459] request.params 
+[2021-01-06 16:14:48.149854] [11165] [file] [info] [machine.cpp:389] sc::state_actions<sc::state_MANUAL>::enter
+[2021-01-06 16:14:48.149909] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_MANUAL"
+}
+
+[2021-01-06 16:14:48.149915] [11165] [file] [info] [machine.cpp:397] sc::state_actions<sc::state_mIDLE>::enter
+[2021-01-06 16:14:48.149930] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_mIDLE"
+}
+
+[2021-01-06 16:14:48.149937] [11165] [file] [info] [main_state.cpp:124] MainState::dispatchEvent event: manual, result: true
+[2021-01-06 16:14:48.150006] [11165] [file] [info] [com_manager.cpp:483] ComManager::JsonRpcCallback Exit request.id 1083
+[2021-01-06 16:14:48.150137] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:48.634428] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:49.049992] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:49.150023] [11165] [file] [info] [com_manager.cpp:456] ComManager::JsonRpcCallback Enter request.id 1084
+[2021-01-06 16:14:49.150037] [11165] [file] [info] [com_manager.cpp:457] request.id 1084
+[2021-01-06 16:14:49.150041] [11165] [file] [info] [com_manager.cpp:458] request.method auto
+[2021-01-06 16:14:49.150044] [11165] [file] [info] [com_manager.cpp:459] request.params 
+[2021-01-06 16:14:49.150074] [11165] [file] [info] [machine.cpp:301] sc::state_actions<sc::state_AUTO>::enter
+[2021-01-06 16:14:49.150119] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_AUTO"
+}
+
+[2021-01-06 16:14:49.150145] [11165] [file] [info] [machine.cpp:309] sc::state_actions<sc::state_IDLE>::enter
+[2021-01-06 16:14:49.150241] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_IDLE"
+}
+
+[2021-01-06 16:14:49.150250] [11165] [file] [info] [main_state.cpp:124] MainState::dispatchEvent event: auto, result: true
+[2021-01-06 16:14:49.150391] [11165] [file] [info] [com_manager.cpp:483] ComManager::JsonRpcCallback Exit request.id 1084
+[2021-01-06 16:14:49.636099] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:49.949908] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_IDLE
+[2021-01-06 16:14:50.150046] [11165] [file] [info] [com_manager.cpp:456] ComManager::JsonRpcCallback Enter request.id 1085
+[2021-01-06 16:14:50.150067] [11165] [file] [info] [com_manager.cpp:457] request.id 1085
+[2021-01-06 16:14:50.150071] [11165] [file] [info] [com_manager.cpp:458] request.method manual
+[2021-01-06 16:14:50.150074] [11165] [file] [info] [com_manager.cpp:459] request.params 
+[2021-01-06 16:14:50.150093] [11165] [file] [info] [machine.cpp:389] sc::state_actions<sc::state_MANUAL>::enter
+[2021-01-06 16:14:50.150127] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_MANUAL"
+}
+
+[2021-01-06 16:14:50.150132] [11165] [file] [info] [machine.cpp:397] sc::state_actions<sc::state_mIDLE>::enter
+[2021-01-06 16:14:50.150146] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_mIDLE"
+}
+
+[2021-01-06 16:14:50.150153] [11165] [file] [info] [main_state.cpp:124] MainState::dispatchEvent event: manual, result: true
+[2021-01-06 16:14:50.150225] [11165] [file] [info] [com_manager.cpp:483] ComManager::JsonRpcCallback Exit request.id 1085
+[2021-01-06 16:14:50.638013] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:50.849972] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:51.149932] [11165] [file] [info] [com_manager.cpp:456] ComManager::JsonRpcCallback Enter request.id 1086
+[2021-01-06 16:14:51.149948] [11165] [file] [info] [com_manager.cpp:457] request.id 1086
+[2021-01-06 16:14:51.149952] [11165] [file] [info] [com_manager.cpp:458] request.method auto
+[2021-01-06 16:14:51.149955] [11165] [file] [info] [com_manager.cpp:459] request.params 
+[2021-01-06 16:14:51.149964] [11165] [file] [info] [machine.cpp:301] sc::state_actions<sc::state_AUTO>::enter
+[2021-01-06 16:14:51.150183] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_AUTO"
+}
+
+[2021-01-06 16:14:51.150191] [11165] [file] [info] [machine.cpp:309] sc::state_actions<sc::state_IDLE>::enter
+[2021-01-06 16:14:51.150213] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_IDLE"
+}
+
+[2021-01-06 16:14:51.150220] [11165] [file] [info] [main_state.cpp:124] MainState::dispatchEvent event: auto, result: true
+[2021-01-06 16:14:51.150286] [11165] [file] [info] [com_manager.cpp:483] ComManager::JsonRpcCallback Exit request.id 1086
+[2021-01-06 16:14:51.638970] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:51.749975] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_IDLE
+[2021-01-06 16:14:52.150022] [11165] [file] [info] [com_manager.cpp:456] ComManager::JsonRpcCallback Enter request.id 1087
+[2021-01-06 16:14:52.150044] [11165] [file] [info] [com_manager.cpp:457] request.id 1087
+[2021-01-06 16:14:52.150048] [11165] [file] [info] [com_manager.cpp:458] request.method manual
+[2021-01-06 16:14:52.150051] [11165] [file] [info] [com_manager.cpp:459] request.params 
+[2021-01-06 16:14:52.150077] [11165] [file] [info] [machine.cpp:389] sc::state_actions<sc::state_MANUAL>::enter
+[2021-01-06 16:14:52.150123] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_MANUAL"
+}
+
+[2021-01-06 16:14:52.150127] [11165] [file] [info] [machine.cpp:397] sc::state_actions<sc::state_mIDLE>::enter
+[2021-01-06 16:14:52.150139] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_mIDLE"
+}
+
+[2021-01-06 16:14:52.150146] [11165] [file] [info] [main_state.cpp:124] MainState::dispatchEvent event: manual, result: true
+[2021-01-06 16:14:52.150363] [11165] [file] [info] [com_manager.cpp:483] ComManager::JsonRpcCallback Exit request.id 1087
+[2021-01-06 16:14:52.640852] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:52.650767] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:53.149826] [11165] [file] [info] [com_manager.cpp:456] ComManager::JsonRpcCallback Enter request.id 1088
+[2021-01-06 16:14:53.149841] [11165] [file] [info] [com_manager.cpp:457] request.id 1088
+[2021-01-06 16:14:53.149846] [11165] [file] [info] [com_manager.cpp:458] request.method auto
+[2021-01-06 16:14:53.149874] [11165] [file] [info] [com_manager.cpp:459] request.params 
+[2021-01-06 16:14:53.149883] [11165] [file] [info] [machine.cpp:301] sc::state_actions<sc::state_AUTO>::enter
+[2021-01-06 16:14:53.149925] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_AUTO"
+}
+
+[2021-01-06 16:14:53.149931] [11165] [file] [info] [machine.cpp:309] sc::state_actions<sc::state_IDLE>::enter
+[2021-01-06 16:14:53.149948] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_IDLE"
+}
+
+[2021-01-06 16:14:53.149956] [11165] [file] [info] [main_state.cpp:124] MainState::dispatchEvent event: auto, result: true
+[2021-01-06 16:14:53.150074] [11165] [file] [info] [com_manager.cpp:483] ComManager::JsonRpcCallback Exit request.id 1088
+[2021-01-06 16:14:53.549841] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_IDLE
+[2021-01-06 16:14:53.641876] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:54.149708] [11165] [file] [info] [com_manager.cpp:456] ComManager::JsonRpcCallback Enter request.id 1089
+[2021-01-06 16:14:54.149727] [11165] [file] [info] [com_manager.cpp:457] request.id 1089
+[2021-01-06 16:14:54.149732] [11165] [file] [info] [com_manager.cpp:458] request.method manual
+[2021-01-06 16:14:54.149735] [11165] [file] [info] [com_manager.cpp:459] request.params 
+[2021-01-06 16:14:54.149745] [11165] [file] [info] [machine.cpp:389] sc::state_actions<sc::state_MANUAL>::enter
+[2021-01-06 16:14:54.149787] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_MANUAL"
+}
+
+[2021-01-06 16:14:54.149791] [11165] [file] [info] [machine.cpp:397] sc::state_actions<sc::state_mIDLE>::enter
+[2021-01-06 16:14:54.149856] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_mIDLE"
+}
+
+[2021-01-06 16:14:54.149864] [11165] [file] [info] [main_state.cpp:124] MainState::dispatchEvent event: manual, result: true
+[2021-01-06 16:14:54.149916] [11165] [file] [info] [com_manager.cpp:483] ComManager::JsonRpcCallback Exit request.id 1089
+[2021-01-06 16:14:54.450036] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:54.642121] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:55.149875] [11165] [file] [info] [com_manager.cpp:456] ComManager::JsonRpcCallback Enter request.id 1090
+[2021-01-06 16:14:55.149906] [11165] [file] [info] [com_manager.cpp:457] request.id 1090
+[2021-01-06 16:14:55.149911] [11165] [file] [info] [com_manager.cpp:458] request.method auto
+[2021-01-06 16:14:55.149914] [11165] [file] [info] [com_manager.cpp:459] request.params 
+[2021-01-06 16:14:55.149922] [11165] [file] [info] [machine.cpp:301] sc::state_actions<sc::state_AUTO>::enter
+[2021-01-06 16:14:55.149966] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_AUTO"
+}
+
+[2021-01-06 16:14:55.149971] [11165] [file] [info] [machine.cpp:309] sc::state_actions<sc::state_IDLE>::enter
+[2021-01-06 16:14:55.150010] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_IDLE"
+}
+
+[2021-01-06 16:14:55.150017] [11165] [file] [info] [main_state.cpp:124] MainState::dispatchEvent event: auto, result: true
+[2021-01-06 16:14:55.150117] [11165] [file] [info] [com_manager.cpp:483] ComManager::JsonRpcCallback Exit request.id 1090
+[2021-01-06 16:14:55.349890] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_IDLE
+[2021-01-06 16:14:55.642500] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:56.149668] [11165] [file] [info] [com_manager.cpp:456] ComManager::JsonRpcCallback Enter request.id 1091
+[2021-01-06 16:14:56.149860] [11165] [file] [info] [com_manager.cpp:457] request.id 1091
+[2021-01-06 16:14:56.149864] [11165] [file] [info] [com_manager.cpp:458] request.method manual
+[2021-01-06 16:14:56.149867] [11165] [file] [info] [com_manager.cpp:459] request.params 
+[2021-01-06 16:14:56.149877] [11165] [file] [info] [machine.cpp:389] sc::state_actions<sc::state_MANUAL>::enter
+[2021-01-06 16:14:56.149958] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_MANUAL"
+}
+
+[2021-01-06 16:14:56.149963] [11165] [file] [info] [machine.cpp:397] sc::state_actions<sc::state_mIDLE>::enter
+[2021-01-06 16:14:56.149981] [11165] [file] [info] [com_manager.cpp:863] ComManager::pub_task_update {
+   "state" : "STATE_mIDLE"
+}
+
+[2021-01-06 16:14:56.149988] [11165] [file] [info] [main_state.cpp:124] MainState::dispatchEvent event: manual, result: true
+[2021-01-06 16:14:56.150048] [11165] [file] [info] [com_manager.cpp:483] ComManager::JsonRpcCallback Exit request.id 1091
+[2021-01-06 16:14:56.251183] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:56.644168] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:57.149687] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:57.645072] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:58.049902] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:58.645177] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:58.950122] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:14:59.645406] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:14:59.850368] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:15:00.645713] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:15:00.749848] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:15:01.647758] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:15:01.649784] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:15:02.549751] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:15:02.647854] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:15:03.450107] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:15:03.648777] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:15:04.350062] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:15:04.649842] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:15:05.249876] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:15:05.651719] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 0
+[2021-01-06 16:15:06.149800] [11165] [file] [info] [main_state.cpp:216] [MainState::state_spinOnce] current state : STATE_mIDLE
+[2021-01-06 16:15:06.653708] [11206] [file] [info] [block_manager.cpp:115] BlockManager::block_timer_callback m_fault_level 
